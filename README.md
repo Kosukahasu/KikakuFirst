@@ -1,6 +1,24 @@
+# maintour
 
-<h1 style="text-align:center"> KikakuFirst</h1>
+## Project setup
+```
+npm install
+```
 
-<p style="text-align:center">osu!thailand Mania Tournament First Page</p>
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-<p style="text-align:center;font-size:10px;">🎉 This is the first project i use vue to code it : )</p>
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
