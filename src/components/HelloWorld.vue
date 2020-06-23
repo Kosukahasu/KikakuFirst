@@ -63,7 +63,9 @@
             <div class="column">
               <article class="tile is-child notification is-primary">
                 <p class="title">osu!mania Thailand Pro League 2020</p>
-                <p class="subtitle">First Mania Tournament League System in Thailand</p>
+                <p class="subtitle">
+                  First Mania Tournament League System in Thailand
+                </p>
               </article>
             </div>
           </div>
