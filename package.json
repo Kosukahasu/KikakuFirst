@@ -10,10 +10,16 @@
   "dependencies": {
     "buefy": "^0.8.20",
     "core-js": "^3.6.5",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2",
+    "location": "0.0.1",
+    "navigator": "^1.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vue2-animate": "^2.1.3",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -26,6 +32,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-vue": "^6.2.2",
+    "expose-loader": "^1.0.0",
     "prettier": "^1.19.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",

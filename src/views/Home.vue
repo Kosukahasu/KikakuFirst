@@ -1,6 +1,8 @@
+import JQuery from 'jquery' let $ = JQuery
+
 <template>
   <div class="hello">
-    <section class="hero is-weeb is-fullheight">
+    <section class="hero is-primary is-gray is-fullheight">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
@@ -32,22 +34,27 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title">
+          <p class="title is-abitmargin">
             Please Select Tournament
           </p>
           <div class="columns is-mobile is-centered">
             <div class="column is-5">
-              <article class="tile is-child notification is-primary">
-                <p class="title is-4">OMTHPL 2020</p>
+              <a
+                class="tile is-child notification is-omthpl2020bg"
+                href="http://localhost:8080"
+              >
+                <p class="title is-4 is-justblacktext" id="bowie">
+                  OMTHPL 2020
+                </p>
                 <img
                   style="width:30%"
-                  src="https://media.discordapp.net/attachments/555074914722381824/693348911317909524/logo.png?width=576&height=576"
+                  src="../assets/omthpl2020logo.png"
                   alt="fak i should download photoshop lol"
                 />
-                <p class="subtitle is-6">
+                <p class="subtitle is-6 is-justblacktext">
                   First Tournament League System in Thailand
                 </p>
-              </article>
+              </a>
             </div>
           </div>
           <p class="subtitle">
@@ -62,7 +69,13 @@
 </template>
 
 <script>
-export default {};
+import $ from "jquery";
+
+export default {
+  mounted() {
+    $("#bowie").remove();
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -81,7 +94,34 @@ li {
 a {
   color: #42b983;
 }
-.is-weeb{
-  background: url();
+</style>
+
+<style lang="css">
+.is-omthpl2020bg {
+  background: url(../assets/bgwithout.png);
+  background-position: top;
+  transition: 0.2s;
+}
+.hero.is-primary {
+  background-color: #5d5b65;
+  color: white;
+}
+.is-gray {
+  background-color: gray;
+}
+.is-justblacktext {
+  color: rgb(0, 0, 0) !important;
+}
+.is-abitmargin {
+  margin: 10px !important;
+}
+.is-omthpl2020bg:hover {
+  transition: 0.2s;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(../assets/bgwithout.png);
+  background-position: center;
 }
 </style>
