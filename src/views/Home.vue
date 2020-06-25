@@ -1,15 +1,14 @@
 <template>
   <div class="hello">
-    <section class="hero is-info is-fullheight">
+    <section class="hero is-weeb is-fullheight">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item">
-                <img
-                  src="https://bulma.io/images/bulma-type-white.png"
-                  alt="Logo"
-                />
+                <span>
+                  osu!mania Thailand Tournament
+                </span>
               </a>
               <span class="navbar-burger burger" data-target="navbarMenuHeroB">
                 <span></span>
@@ -23,19 +22,8 @@
                   Home
                 </a>
                 <a class="navbar-item">
-                  Examples
+                  Credit
                 </a>
-                <a class="navbar-item">
-                  Documentation
-                </a>
-                <span class="navbar-item">
-                  <a class="button is-info is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </span>
               </div>
             </div>
           </div>
@@ -47,24 +35,17 @@
           <p class="title">
             Please Select Tournament
           </p>
-          <div class="columns">
-            <div class="column">
-              <article class="tile is-child notification is-primary is-big">
-                <p class="title">osu!mania Thailand Tournament 2018</p>
-                <p class="subtitle">First Mania Tournament in Thailand</p>
-              </article>
-            </div>
-            <div class="column">
+          <div class="columns is-mobile is-centered">
+            <div class="column is-5">
               <article class="tile is-child notification is-primary">
-                <p class="title">osu!mania Thailand Tournament 2019</p>
-                <p class="subtitle">Idk wtf signature in this year lol</p>
-              </article>
-            </div>
-            <div class="column">
-              <article class="tile is-child notification is-primary">
-                <p class="title">osu!mania Thailand Pro League 2020</p>
-                <p class="subtitle">
-                  First Mania Tournament League System in Thailand
+                <p class="title is-4">OMTHPL 2020</p>
+                <img
+                  style="width:30%"
+                  src="https://media.discordapp.net/attachments/555074914722381824/693348911317909524/logo.png?width=576&height=576"
+                  alt="fak i should download photoshop lol"
+                />
+                <p class="subtitle is-6">
+                  First Tournament League System in Thailand
                 </p>
               </article>
             </div>
@@ -75,32 +56,7 @@
         </div>
       </div>
 
-      <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-          <div class="container">
-            <ul>
-              <li class="is-active">
-                <a>Overview</a>
-              </li>
-              <li>
-                <a>Modifiers</a>
-              </li>
-              <li>
-                <a>Grid</a>
-              </li>
-              <li>
-                <a>Elements</a>
-              </li>
-              <li>
-                <a>Components</a>
-              </li>
-              <li>
-                <a>Layout</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <div class="hero-foot"></div>
     </section>
   </div>
 </template>
@@ -124,5 +80,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.is-weeb{
+  background: url();
 }
 </style>
